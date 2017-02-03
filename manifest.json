@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+	"content_scripts": [ {
+        "js":        [ "runThisOnLoad.js" ],
+        "matches":   [ "<all_urls>"],
+        "run_at":    "document_start"
+    } ],
+
+  "name": "Hexis Client Add-on",
+  "description": "Chrome add-on for the Hexis habit control device",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Block or allow site"
+  },
+  "permissions": [
+    "tabs",
+    "https://ajax.googleapis.com/",
+    "http://*/*", 
+    "https://*/*"
+  ]
+
+}
