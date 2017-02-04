@@ -2,7 +2,7 @@
 
 		
 	    var urlOfTheCurrentWindow = window.location.href;
-	    var domain = urlOfTheCurrentWindow.match(/^[\w-]+:\/{2,}\[?([\w\.:-]+)\]?(?::[0-9]*)?/)[1];
+	    var nameOfTheSite = urlOfTheCurrentWindow.match(/^[\w-]+:\/{2,}\[?([\w\.:-]+)\]?(?::[0-9]*)?/)[1];
 	    if (localStorage.getItem("isBlocked") == 1){
-			alert('You are not allowed to come to '+domain+'. Prepare to be zapped.');
+			alert('You are not allowed to come to '+nameOfTheSite+'. Prepare to be zapped.');
 		}
