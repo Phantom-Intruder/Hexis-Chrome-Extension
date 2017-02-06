@@ -3,6 +3,10 @@ function onSettingsButtonClick(){
 	window.open('settings.html', '_blank');
 }
 
+function onCheckButton(){
+	
+}
+
 function onAllowSiteButtonClick(){
 chrome.tabs.query({'active': true, 'lastFocusedWindow': true}, function (tabs) {
     var urlOfTheCurrentWindow = tabs[0].url;	   
@@ -46,5 +50,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('blockButtonSite').addEventListener('click', onBlockSiteButtonClick);
+});
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('check').addEventListener('click', onCheckButton);
 });
 
