@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 	"content_scripts": [ {
-        "js":        [ "runThisOnLoad.js"],
+        "js":        [ "jquery.js", "runThisOnLoad.js"],
         "matches":   [ "<all_urls>"],
         "run_at":    "document_start"
 } ],
