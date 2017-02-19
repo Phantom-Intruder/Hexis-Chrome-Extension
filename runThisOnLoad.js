@@ -16,7 +16,7 @@ if (localStorage.getItem("isBlocked") == 1){
     "postman-token": "309eb08e-b77d-8e02-ee28-84011de1acf9"
   },
   "processData": false,
-  "data": "{\n  \"to\": \"fiJb6RRjfP0:APA91bEppO59pw_CEe2cMbGRzrcYTCH6zpJaZLorospcc12gRwfNVGQHn2e7SQX2CJmdm7UiSIg3I6abNa3-IJIvmCnFRxb67gAPxMawQX9aFZnmfFa6673wcEKuWhBKQEqaFJScFk55\",\n  \"notification\": {\n    \"body\": \"You have accessed a restricted website\",\n    \"title\": \"Bad Habit Alert!!!\"\n  }\n}"
+  "data": "{\n  \"to\": \"fiJb6RRjfP0:APA91bEppO59pw_CEe2cMbGRzrcYTCH6zpJaZLorospcc12gRwfNVGQHn2e7SQX2CJmdm7UiSIg3I6abNa3-IJIvmCnFRxb67gAPxMawQX9aFZnmfFa6673wcEKuWhBKQEqaFJScFk55\",\n  \"data\": {\n    \"body\": \"You have accessed a restricted website\",\n    \"title\": \"Bad Habit Alert!!!\"\n  }\n}"
 }
 
 $.ajax(settings).done(function (response) {
