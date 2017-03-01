@@ -52,8 +52,3 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('blockButtonSite').addEventListener('click', onBlockSiteButtonClick);
 });
 
-
-document.addEventListener('DOMContentLoaded', function () {
-    document.getElementById('check').addEventListener('click', onCheckButton);
-});
-
