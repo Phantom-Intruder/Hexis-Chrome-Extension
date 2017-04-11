@@ -7,7 +7,7 @@ if (localStorage.getItem("isBlocked") == 1){
 	var settings = {
   "async": true,
   "crossDomain": true,
-  "url": "https://cybertechparadise.com/report_activity.php?habitId=3",
+  "url": "https://hexis-band.azurewebsites.net/report_activity.php?habitId=3ss",
   "method": "GET",
   "headers": {
     "cache-control": "no-cache",
