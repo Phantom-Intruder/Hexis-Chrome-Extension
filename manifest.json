@@ -27,6 +27,5 @@
      "storage", 
      "activeTab",
 	  "gcm" 
-  ],
- "options_page" : "settings.html"
+  ]
 }
