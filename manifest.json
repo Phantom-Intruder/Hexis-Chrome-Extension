@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 	"content_scripts": [ {
-        "js":        [ "jquery.js", "runThisOnLoad.js"],
+        "js":        [ "Scripts/jquery.js", "Scripts/runThisOnLoad.js"],
         "matches":   [ "<all_urls>"],
         "run_at":    "document_start"
 } ],
@@ -11,13 +11,13 @@
   "version": "1.0",
 
   "browser_action": {
-    "default_icon": "icon.png",
+    "default_icon": "Assets/icon.png",
     "default_popup": "popup.html",
     "default_title": "Block or allow site"
   },
-"icons": { "16": "icon.png",
-           "48": "icon48.png",
-          "128": "icon128.png" },
+"icons": { "16": "Assets/icon.png",
+           "48": "Assets/icon48.png",
+          "128": "Assets/icon128.png" },
   
   "permissions": [
     "tabs",
